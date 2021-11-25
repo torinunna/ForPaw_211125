@@ -1,5 +1,6 @@
 package com.yujin.forpaw_211125
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -17,6 +18,15 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setupEvents() {
+        binding.signInBtn.setOnClickListener {
+            val signInIntent = Intent(mContext, SignInActivity::class.java)
+            startActivity(signInIntent)
+        }
+
+        binding.signUpBtn.setOnClickListener {
+            val signUpIntent = Intent(mContext, SignUpActivity::class.java)
+            startActivity(signUpIntent)
+        }
     }
 
     override fun setValues() {
