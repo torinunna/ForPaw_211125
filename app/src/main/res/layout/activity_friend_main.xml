@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FriendMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/mainTxt"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/samlip_hopang_che_outline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:text="ForPaw." />
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@drawable/profile_default"
+            android:layout_gravity="center"
+            android:layout_marginVertical="30dp" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:text="이름" />
+
+        <TextView
+            android:id="@+id/birthDayTxt"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="생일" />
+
+        <Button
+            android:id="@+id/mobileCardBtn"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="모바일 동물등록증" />
+
+        <Button
+            android:id="@+id/vaccineBtn"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="접종 내역" />
+
+        <Button
+            android:id="@+id/vetBtn"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="동물병원 내원 기록" />
+
+        <Button
+            android:id="@+id/extraBtn"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추가 정보" />
+
+
+    </LinearLayout>
+
+</layout>
