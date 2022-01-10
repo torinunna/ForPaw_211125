@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ForPaw_211125">
         <activity
+            android:name=".CalenderActivity"
+            android:exported="false" />
+        <activity
             android:name=".MobileCardActivity"
             android:exported="true" />
         <activity
